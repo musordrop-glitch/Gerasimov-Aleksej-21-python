@@ -1,0 +1,7 @@
+import math
+x = float(input("Введите:"))
+x = math.radians(x)
+a = math.sin(x)
+b = math.cos(x)
+c = math.tan(x) ** 2
+print(a + b + c)
