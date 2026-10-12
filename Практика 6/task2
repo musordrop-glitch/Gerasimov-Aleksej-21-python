@@ -1,0 +1,15 @@
+dep = int(input("Введите число:"))
+if dep < 0 or dep > 36:
+    print("Ошибка ввода")
+elif dep == 0:
+    print("Зеленый")
+elif dep <= 10 or 19 <= dep <= 28:
+    if dep % 2 == 1:
+        print("Красный")
+    else:
+        print("Черный")
+else:
+    if dep % 2 == 1:
+        print("Черный")
+    else:
+        print("Красный")
