@@ -1,0 +1,9 @@
+temperatura = float(input("Введите температуру (°C):"))
+davlenie = int(input("Введите давление:"))
+puls = int(input("Введите пульс:"))
+if temperatura < 35 or temperatura > 38 or davlenie < 105 or davlenie > 140 or puls < 55 or puls > 110:
+    print("Требуется врач")
+elif temperatura < 36 or temperatura > 37 or davlenie < 110 or davlenie > 130 or puls < 60 or puls > 100:
+    print("Легкое недомогание")
+else:
+    print("Нормальное состояние")
